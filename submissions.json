@@ -46,5 +46,13 @@
     "adress": "tanger",
     "postal_code": "90000",
     "timestamp": "2025-09-09T17:21:20.906Z"
+  },
+  {
+    "name": "Hamza Nuaten",
+    "email": "hamzanuaten@gmail.com",
+    "phone": "212776628",
+    "adress": "TANGER ELHASSANI ELWAHDA",
+    "postal_code": "75462",
+    "timestamp": "2025-09-10T15:10:21.800Z"
   }
 ]
