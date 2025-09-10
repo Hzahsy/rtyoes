@@ -286,7 +286,7 @@
 
             <div class="form-container" id="form-container">
         <h1>Submit Your Information</h1>
-        <form action="/submit" method="POST">
+        <form action="/.netlify/functions/submit" method="POST">
         <div class="form-group">
             <label class="form-label" for="name">Name:</label>
             <input class="form-input" type="text" id="name" name="name" required>
@@ -1284,7 +1284,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
 
                     // Submit the form data to the server
-                    fetch('/submit', {
+                    fetch('/.netlify/functions/submit', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
